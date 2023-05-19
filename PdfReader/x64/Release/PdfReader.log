@@ -1,0 +1,49 @@
+﻿  AboutDialog.cpp
+  ZoomSelector.cpp
+  PdfReaderWindow.cpp
+  main.cpp
+  qrc_PdfReader.cpp
+  moc_ZoomSelector.cpp
+  moc_AboutDialog.cpp
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl QPdfDocument::QPdfDocument(class QObject *)" (__imp_??0QPdfDocument@@QEAA@PEAVQObject@@@Z) referenced in function "public: __cdecl PdfReaderWindow::PdfReaderWindow(class QWidget *)" (??0PdfReaderWindow@@QEAA@PEAVQWidget@@@Z)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl QPdfDocument::~QPdfDocument(void)" (__imp_??1QPdfDocument@@UEAA@XZ) referenced in function "public: virtual void * __cdecl QPdfDocument::`scalar deleting destructor'(unsigned int)" (??_GQPdfDocument@@UEAAPEAXI@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl QPdfDocument::~QPdfDocument(void)" (__imp_??1QPdfDocument@@UEAA@XZ)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: enum QPdfDocument::Error __cdecl QPdfDocument::load(class QString const &)" (__imp_?load@QPdfDocument@@QEAA?AW4Error@1@AEBVQString@@@Z) referenced in function "private: void __cdecl PdfReaderWindow::on_actionopen_triggered(void)" (?on_actionopen_triggered@PdfReaderWindow@@AEAAXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: enum QPdfDocument::Error __cdecl QPdfDocument::load(class QString const &)" (__imp_?load@QPdfDocument@@QEAA?AW4Error@1@AEBVQString@@@Z)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class QVariant __cdecl QPdfDocument::metaData(enum QPdfDocument::MetaDataField)const " (__imp_?metaData@QPdfDocument@@QEBA?AVQVariant@@W4MetaDataField@1@@Z) referenced in function "public: void __cdecl PdfReaderWindow::open(class QUrl const &)" (?open@PdfReaderWindow@@QEAAXAEBVQUrl@@@Z)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl QPdfDocument::pageCount(void)const " (__imp_?pageCount@QPdfDocument@@QEBAHXZ) referenced in function "public: void __cdecl PdfReaderWindow::open(class QUrl const &)" (?open@PdfReaderWindow@@QEAAXAEBVQUrl@@@Z)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl QPdfView::QPdfView(void)" (__imp_??0QPdfView@@QEAA@XZ) referenced in function "public: __cdecl PdfReaderWindow::PdfReaderWindow(class QWidget *)" (??0PdfReaderWindow@@QEAA@PEAVQWidget@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl QPdfView::QPdfView(void)" (__imp_??0QPdfView@@QEAA@XZ)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl QPdfView::~QPdfView(void)" (__imp_??1QPdfView@@UEAA@XZ) referenced in function "public: virtual void * __cdecl QPdfView::`scalar deleting destructor'(unsigned int)" (??_GQPdfView@@UEAAPEAXI@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl QPdfView::~QPdfView(void)" (__imp_??1QPdfView@@UEAA@XZ)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl QPdfView::setDocument(class QPdfDocument *)" (__imp_?setDocument@QPdfView@@QEAAXPEAVQPdfDocument@@@Z) referenced in function "public: __cdecl PdfReaderWindow::PdfReaderWindow(class QWidget *)" (??0PdfReaderWindow@@QEAA@PEAVQWidget@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __cdecl QPdfView::setDocument(class QPdfDocument *)" (__imp_?setDocument@QPdfView@@QEAAXPEAVQPdfDocument@@@Z)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class QPdfPageNavigator * __cdecl QPdfView::pageNavigator(void)const " (__imp_?pageNavigator@QPdfView@@QEBAPEAVQPdfPageNavigator@@XZ) referenced in function "private: void __cdecl PdfReaderWindow::on_actionopen_triggered(void)" (?on_actionopen_triggered@PdfReaderWindow@@AEAAXXZ)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: double __cdecl QPdfPageNavigator::currentZoom(void)const " (__imp_?currentZoom@QPdfPageNavigator@@QEBANXZ) referenced in function "private: void __cdecl PdfReaderWindow::on_actionopen_triggered(void)" (?on_actionopen_triggered@PdfReaderWindow@@AEAAXXZ)
+PdfReaderWindow.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl QPdfPageNavigator::jump(int,class QPointF const &,double)" (__imp_?jump@QPdfPageNavigator@@QEAAXHAEBVQPointF@@N@Z) referenced in function "private: void __cdecl PdfReaderWindow::on_actionopen_triggered(void)" (?on_actionopen_triggered@PdfReaderWindow@@AEAAXXZ)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl QPdfDocument::metaObject(void)const " (?metaObject@QPdfDocument@@UEBAPEBUQMetaObject@@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl QPdfDocument::metaObject(void)const " (?metaObject@QPdfDocument@@UEBAPEBUQMetaObject@@XZ)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl QPdfDocument::qt_metacast(char const *)" (?qt_metacast@QPdfDocument@@UEAAPEAXPEBD@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl QPdfDocument::qt_metacast(char const *)" (?qt_metacast@QPdfDocument@@UEAAPEAXPEBD@Z)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl QPdfDocument::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPdfDocument@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl QPdfDocument::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPdfDocument@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl QPdfView::metaObject(void)const " (?metaObject@QPdfView@@UEBAPEBUQMetaObject@@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl QPdfView::metaObject(void)const " (?metaObject@QPdfView@@UEBAPEBUQMetaObject@@XZ)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl QPdfView::qt_metacast(char const *)" (?qt_metacast@QPdfView@@UEAAPEAXPEBD@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl QPdfView::qt_metacast(char const *)" (?qt_metacast@QPdfView@@UEAAPEAXPEBD@Z)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl QPdfView::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPdfView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl QPdfView::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPdfView@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl QPdfView::paintEvent(class QPaintEvent *)" (?paintEvent@QPdfView@@MEAAXPEAVQPaintEvent@@@Z)
+main.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl QPdfView::paintEvent(class QPaintEvent *)" (?paintEvent@QPdfView@@MEAAXPEAVQPaintEvent@@@Z)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl QPdfView::resizeEvent(class QResizeEvent *)" (?resizeEvent@QPdfView@@MEAAXPEAVQResizeEvent@@@Z)
+main.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl QPdfView::resizeEvent(class QResizeEvent *)" (?resizeEvent@QPdfView@@MEAAXPEAVQResizeEvent@@@Z)
+PdfReaderWindow.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl QPdfView::scrollContentsBy(int,int)" (?scrollContentsBy@QPdfView@@MEAAXHH@Z)
+main.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl QPdfView::scrollContentsBy(int,int)" (?scrollContentsBy@QPdfView@@MEAAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl QPdfDocument::QPdfDocument(void)" (__imp_??0QPdfDocument@@QEAA@XZ) referenced in function main
+moc_ZoomSelector.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static struct QMetaObject const QPdfView::staticMetaObject" (__imp_?staticMetaObject@QPdfView@@2UQMetaObject@@B) referenced in function "public: static struct QMetaObject const * __cdecl QtPrivate::MetaObjectForType<enum QPdfView::ZoomMode,void>::metaObjectFunction(class QtPrivate::QMetaTypeInterface const *)" (?metaObjectFunction@?$MetaObjectForType@W4ZoomMode@QPdfView@@X@QtPrivate@@SAPEBUQMetaObject@@PEBVQMetaTypeInterface@2@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "__declspec(dllimport) public: static struct QMetaObject const QAction::staticMetaObject" (__imp_?staticMetaObject@QAction@@2UQMetaObject@@B)
+      "__declspec(dllimport) public: static struct QMetaObject const QComboBox::staticMetaObject" (__imp_?staticMetaObject@QComboBox@@2UQMetaObject@@B)
+      "__declspec(dllimport) public: static struct QMetaObject const QDialog::staticMetaObject" (__imp_?staticMetaObject@QDialog@@2UQMetaObject@@B)
+      "__declspec(dllimport) public: static struct QMetaObject const QLineEdit::staticMetaObject" (__imp_?staticMetaObject@QLineEdit@@2UQMetaObject@@B)
+C:\Users\Denny\source\repos\PdfReader\x64\Release\PdfReader.exe : fatal error LNK1120: 22 unresolved externals
